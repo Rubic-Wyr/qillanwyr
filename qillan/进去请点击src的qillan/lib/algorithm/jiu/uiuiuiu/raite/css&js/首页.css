@@ -1,0 +1,257 @@
+*{
+    margin: auto;
+    text-align: center;
+}
+
+.a{
+    width: 100%;
+    height: 900px;
+    background-image: url(../../../../../../bin/Donljjj/user/hhhh/frghjk/fgykjhbkjbh/img/KUromi.jpeg);
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1{
+    margin: 0 auto;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight:500;}
+
+.b{
+    opacity: 1;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    margin-top: 250px;
+    background-color: rgba(255, 255, 255, 0.582);
+    overflow: hidden;}
+
+div.b>p{
+    color:rgb(21, 12, 20) ;
+    font-size: 25px;
+    font-weight: 800;}
+
+div.b>hr{
+    width: 80%;
+    margin: 0 auto;
+    height: 3px;
+    border: none;
+    background-color:rgb(0, 0, 0) ;}
+
+.c{
+    width: 100%;
+    height: 120px;
+    background-color: #FDE1DE;
+    overflow: hidden;}
+
+div.d>ul{
+    width: 100%;
+    margin: 0 auto;}
+
+div.d>ul>li{
+    float: left;
+    list-style: none;
+    margin-left: 120px;
+    margin-top: 10px;}
+
+div.d>ul:last-child
+{
+    margin-right: 700px;
+}
+
+div.d>ul>li>a
+{
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 50px;
+}
+
+div.d>ul>li>a:hover
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.d{
+    width: 1050px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;}
+
+.e{
+    margin-top: 100px;
+    height: 500px;}
+
+.f{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: #cecece 5px solid;}
+
+div.e>p
+{
+	color: #737373;
+}
+
+.g
+{
+    height: 1300px;
+    width: 100%;
+    background-color: #FDE1DE;overflow: hidden;
+
+   
+ }
+
+div.g>h2
+{margin-top: 100px;
+    color: #4a4a4a;
+}
+
+.x
+{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1260px;
+    height: 3000px;
+}
+
+
+.y
+{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    overflow: hidden;
+    padding-top:80px;
+    background-image: url(../../../../../../bin/Donljjj/user/hhhh/frghjk/fgykjhbkjbh/img/粉色海洋.png);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0ch;
+}
+
+div.y>a{text-align: center;text-decoration: none;color: #FEFCFC;border: none 1px solid;padding: 15px;font-size: 30px;}
+
+div.y>a:hover{background-color: #252525;color: #F6F6F6;}
+
+div.y>p{color: #FEFCFC;}
+
+.z{float: right;}
+
+div.damn>p{
+    color: #ffffff;
+    text-align: center;
+}
+.m3
+{
+	width: 800px;height: 90px;float: left;margin-bottom: 90px;
+}
+.gzmu
+{
+    height: 70px;
+    width: 850px;
+    float: left;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-image: url(../../../../../../bin/Donljjj/user/hhhh/frghjk/fgykjhbkjbh/img/logo.png);
+    background-repeat: no-repeat;
+
+    
+}
+
+.btn {
+    margin-top: 50px;
+   
+    /*调整位置*/
+    display: inline-block;
+    /*行内块级显示，一排显示按钮*/
+    border-radius: 20px;
+    /*美化按钮……原！！！妙不可言！%%%%*/
+    background-color: #ffffff;
+    border: none;
+    color: #ffff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 20px;
+    /*看起来要圆润一些*/
+    width: 200px;
+    transition: all s;
+    /*平滑过渡*/
+    cursor: pointer;
+    /*小手指指起来（鼠标样式设置）*/
+
+    /* vertical-align: middle;/*对齐方式，中心和父亲中心对齐*/
+}
+
+/*开始设置悬浮动画*/
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span::after {
+    content: ">";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    color: #FDE1DE;
+}
+
+/*在span标签后面加入一个伪元素，和JavaScript当中的attr（）用法类似%%*/
+.btn:hover span {
+    padding-right: 30px;
+    
+}
+
+.btn:hover span::after {
+    opacity: 1;
+    right: 0;
+   .btn a {
+    color: #FDE1DE;
+    
+   };
+}
+
+.btn a {
+    color: #7A7A7A;
+    text-decoration: none;
+    /*去掉下划线*/
+}
+.btn a :hover {
+    color: #FDE1DE;
+}
+/*设置按钮悬浮动画结束*/
+
+/*设置按钮悬浮动画结束*/
+#btn1 {
+    margin-left: 100px;
+}
+
+
+.sunwukong {
+  /* 设置一个好看的按钮样式 */
+  background-color: #ffffff;
+  border: none;
+  color: #7A7A7A;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  vertical-align: middle;
+}

@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.part-1{
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+a{
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgb(159, 45, 212);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    background-color: rgb(159, 45, 212);
+    color: white;
+}

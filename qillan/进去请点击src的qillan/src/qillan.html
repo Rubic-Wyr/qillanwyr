@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Ch">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>welcome to the space that only belong to WYR and LILI</title>
+<link rel="stylesheet" href="../lib/algorithm/jiu/uiuiuiu/raite/css&js/登录.css">
+</head>
+<body>
+<!-- 为整个页面设置一个背景图片，让登录页面看起来更加生动。 -->
+
+<div class="bg-img">
+  <div class="container">
+    <label for="uname"><b>用户名</b></label>
+     <input type="text" placeholder="输入账号" name="uname" required>
+    
+     <label for="psw"><b>密码</b></label>
+     <input type="password" placeholder="输入密码" name="psw" required>
+    <!-- 如果鼠标悬浮在登录按钮上的时候设置一个1s的过渡动画在登录右边显示一个>并且变色，鼠标离开的时候恢复原状。 -->
+    
+    <div class="btn" onclick="login()">
+      <button type="submit" onmouseover="this.style.backgroundColor='#2D77E5'" onmouseout="this.style.backgroundColor='#B1E0FF'">登录</button>
+    
+     
+    </div>
+     
+
+
+      <script>
+     function login() {
+      var uname = document.getElementsByName("uname")[0].value;
+      var psw = document.getElementsByName("psw")[0].value;
+      if (uname == "qillan" && psw == "WYRLOVELILI0629") {
+        window.location.href = "../bin/Donljjj/akm4/ruff/defend/hhhhh/donk/日记.html";
+      } 
+     else if (uname == "RUBIC" && psw == "TOINTO") {
+        window.location.href = "../bin/Donljjj/akm4/ruff/defend/hhhhh/donk/首页.html";
+      } 
+      else {
+        alert("账号或密码错误");
+
+      }
+    }
+    </script>
+     <label><input type="checkbox" checked="checked" name="remember">记住我</label>
+     </div>
+    
+     <div class="container" style="background-color:#f1f1f1">
+        <p><a href="#">Forgot password?</a></p>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+     </div>
+    
+     
+    
+    
+</div>
